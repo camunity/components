@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Hello() {
-  return <div>Yoooooooo we hacking on React!</div>
+function Hello(props) {
+  return <h3>{`Hello! It's ${props.date}`}</h3>
 }
 
 export default Hello
