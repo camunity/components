@@ -1,20 +1,14 @@
 import './App.css'
-import Hello from './components/Hello'
-import Message from './components/Message'
+// import Hello from './components/forProps/Hello'
+// import Message from './components/forProps/Message'
+import Mood from './components/Mood'
 
 // Step 1: Define a Component
 function App() {
   // Step 2: Return some JSX
   return (
     <div className="App">
-      <header className="App-header">
-        <Hello date={'9/29/21'} />
-        <Message content={'Yo yo yo!'} sender={'Cam'} />
-        <Message content={'This is cool!'} sender={'Naomi'} />
-        <Message content={'Aye aye aye!'} sender={'Khray'} />
-        <Message content={'This component has no sender prop!'} />
-        <Message />
-      </header>
+      <Mood />
     </div>
   )
 }
