@@ -1,15 +1,9 @@
-import './App.css'
-import TaskContainer from './components/TaskContainer'
+import Example from './components/hooks/Example'
 
-// Step 1: Define a Component
-function App() {
-  // Step 2: Return some JSX
+export default function App() {
   return (
-    <div className="App">
-      <TaskContainer />
+    <div>
+      <Example />
     </div>
   )
 }
-
-//Step 3: Exporting/Importing Component
-export default App
